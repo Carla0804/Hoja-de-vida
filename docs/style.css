@@ -12,7 +12,7 @@ body {
 /*Cuerpo de la página, contiene todo menos el footer (5)*/
 .fondo {
     background-color: black;
-    background-image: url("images/fondo.jpg");
+    background-image: url("https://i.postimg.cc/rwnyWdRb/fondo.jpg");
     height: 200px;
     margin: -8px;
     margin-top: -7px;
@@ -93,7 +93,7 @@ body {
 /*Línea del footer*/
 .backgroundEnd {
     background-color: black;
-    background-image: url("images/fondo.jpg");
+    background-image: url("https://i.postimg.cc/rwnyWdRb/fondo.jpg");
     margin: -8px;
     height: 75px;
 }
