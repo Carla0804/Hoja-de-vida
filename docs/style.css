@@ -1,0 +1,106 @@
+* {
+    font-family:'Nunito', sans-serif;
+    
+}
+P {
+    color: rgb(70, 69, 69) !important;
+    text-align: justify;
+}
+body {
+    margin-bottom: -1%;
+}
+/*Cuerpo de la página, contiene todo menos el footer (5)*/
+.fondo {
+    background-color: black;
+    background-image: url("images/fondo.jpg");
+    height: 200px;
+    margin: -8px;
+    margin-top: -7px;
+}
+/*Imagen de fondo de la cabecera (1)*/
+.main {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+/*Contenedor global de la foto de perfil y el texto (2)*/
+.imagen img {
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 18%;
+    margin-left: 45%;
+}
+/*Foto de perfil (3)*/
+.myName {
+    font-size: 130%;
+    letter-spacing: 3px;
+    color: white;
+    line-height: 13px;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+/*Contenedor con el estilo para el nombre (4)*/
+.lineSpace {
+    margin-top: -37px;
+    
+}
+/*Línea debajo del fondo*/
+.containerBodyMargin {
+    margin-bottom: 6%;
+}
+/*Contenedor dentro del body para manejar la margen de abajo para la línea*/
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 11%;
+    margin-top: 4%;
+}
+/*Segundo contenedor del body, coge todo el texto menos la línea (7)*/
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    min-width: 30%;
+}
+/*Primera tabla, primera columna (líneas), segunda columna (cursos y referencias) (8)*/
+.spaceLineText {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+/*Contenedor de la línea y el texto (izquierda y derecha) (10)*/
+.textAlign {
+    margin-left: 5%;
+    line-height: 5px;
+}
+/*Contenedor del texto (derecha) (12)*/
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    max-width: 64%;
+}
+/*Segunda columna de la tabla, segunda columna (PERFIL PROFESIONAL) (13)*/
+.lineSpaceEnd {
+    margin: -8px;
+    margin-top: 4% !important;
+    margin-bottom: -75px;
+}
+/*Línea del footer*/
+.backgroundEnd {
+    background-color: black;
+    background-image: url("images/fondo.jpg");
+    margin: -8px;
+    height: 75px;
+}
+.textFooter {
+    margin-left: 6%;
+    margin-top: 2px;
+    color: white;
+}
+
+
